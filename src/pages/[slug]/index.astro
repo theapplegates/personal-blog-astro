@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import BlogPost from "../../layouts/BlogPost.astro";
 import Layout from "../../layouts/Layout.astro";
+export const prerender = true;
 
 // astro takes care of filtering the blog posts
 export async function getStaticPaths() {
