@@ -7,7 +7,7 @@ import vercel from "@astrojs/vercel";
 import { transformerNotationHighlight } from "@shikijs/transformers";
 
 export default defineConfig({
-  site: "https://blog.pavanbhaskar.com",
+  site: "https://nice.paulapplegate.com",
   integrations: [mdx(), sitemap(), react(), tailwind()],
   markdown: {
     shikiConfig: {
